@@ -1,0 +1,30 @@
+
+program1
+
+?- likes(bill,joe).
+?- likes(alice,mary).
+
+program2
+
+
+?- ancestor(tina,W).
+?- ancestor(fred,john).
+
+
+program3
+[] (* no goal *)
+?-male(john).
+?-male(andrew).
+?-male(X).
+?-father(john).
+?-female(X).
+?-father(X).
+?-father(Y).
+
+program4
+?-path(a,c).
+?-edge(a,X).
+?-path(a,W).  
+?-edge(X,Y).
+?-path(X,Y).
+?-path(X,Y),!
